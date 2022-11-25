@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio-Contact </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css-styles/shared.css">
+  <link rel="stylesheet" href="css-styles/contact.css">
+</head>
+
+<body>
+  <!--Header section -->
+
+  <header class="main-header">
+    <div class="container">
+    <div class="main-header__brand">
+      <a href="index.html">
+        <img src="images/photo_2021-04-21_22-59-34.jpg" alt="Logo">
+      </a>
+    </div>
+    <nav class="main-navigation">
+      <ul class="main-navigation__items">
+        <li class="main-navigation__item">
+          <a href="./index.html"> Main </a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">About me</a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">Services</a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">Clients</a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">Portfolio</a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">Blog</a>
+        </li>
+        <li class="main-navigation__item">
+          <a href="#">Partners</a>
+        </li>
+        <li class="main-navigation__item active" >
+          <a href="./contact.html" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+<!--/Header section--> 
+<!--Contact form-->
+<div class="container">
+  <section class="contact">
+    <div class="section-title">
+      Contact me
+    </div>
+    <form action="/server.php" method="GET">
+      <textarea rows="10" placeholder="Enter message" name="message"></textarea>
+     <div class="half-flex">
+      <div class=" contact__firstname">
+        <input type="text" class="firstname" placeholder="Enter your name" name="firstname">
+       </div>
+        <div class=" contact__email">
+          <input type="email" class="email" placeholder="Enter your email" name="email">
+        </div>
+     </div>
+      <input type="text" class="subject" placeholder="Enter the subject" name="Subject">
+      <button class="button contact__send" type="submit">Submit message</button>
+    </form>
+  </section>
+</div>
+<!--/Contact form-->
+
+
+<!--Footer section-->
+
+<footer class="footer">
+  <div class="containcer">
+    <div class="footer__brand">
+      <img src="./images/xlogo2.png.pagespeed.ic.VABfFJ_hK0.webp" alt="logo">
+    </div>
+  <nav class="footer__navigation">
+    <ul class="footer__navigation-items">
+      <li class="footer__navigation-item">
+        <a href="#"> Main </a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">About me</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">Services</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">Clients</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">Portfolio</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">Blog</a>
+      </li>
+      <li class="footer__navigation-item">
+        <a href="#">Partners</a>
+      </li>
+      
+    </ul>
+  </nav>
+  <ul class="footer__socials">
+    <li class="footer__social">
+      <a href="#">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </li>
+    <li class="footer__social">
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li class="footer__social">
+      <a href="#">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  </ul>
+
+  <div class="footer__text">
+    <p>Copyright ©2022 All rights reserved | This template is made with  by <span class="footer__text-span">Colorlib</span></p>
+  </div>
+</div>
+</footer>
+
+
+<!--/Footer section-->
+
+
+</body>
+
+</html> 
